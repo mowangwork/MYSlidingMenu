@@ -17,8 +17,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LeftMenuActivity"
+            android:name=".general.LeftMenuActivity"
             android:label="@string/title_activity_left_menu" >
+        </activity>
+        <activity
+            android:name=".general.RightMenuActivity"
+            android:label="@string/title_activity_right_menu" >
+        </activity>
+        <activity
+            android:name=".general.LeftAndRightActivity"
+            android:label="@string/title_activity_left_and_right" >
+        </activity>
+        <activity
+            android:name=".dynamic.LeftDynamicMenuActivity"
+            android:label="@string/title_activity_left_dynamic_menu" >
+        </activity>
+        <activity
+            android:name=".dynamic.RightDynamicMenuActivity"
+            android:label="@string/title_activity_right_dynamic_menu" >
+        </activity>
+        <activity
+            android:name=".dynamic.LeftAndRightDynamicActivity"
+            android:label="@string/title_activity_left_and_right_dynamic" >
+        </activity>
+        <activity
+            android:name=".effect.LockInterfaceActivity"
+            android:label="@string/title_activity_lock_interface" >
+        </activity>
+        <activity
+            android:name=".effect.LockInterfaceDynamicActivity"
+            android:label="@string/title_activity_lock_interface_dynamic" >
         </activity>
     </application>
 

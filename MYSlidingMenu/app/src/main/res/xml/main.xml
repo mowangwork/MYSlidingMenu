@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <PreferenceCategory android:title="@string/general" >
-        <Preference android:title="@string/left_menu" />
+    <PreferenceCategory android:title="@string/general" android:key="@string/general" >
+        <Preference android:title="@string/left_menu" android:dependency="@string/general">
+        </Preference>
+        <Preference android:title="@string/right_menu" android:dependency="@string/general"/>
+        <Preference android:title="@string/left_right_menu" android:dependency="@string/general"/>
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/dynamic" android:key="@string/dynamic" >
+        <Preference android:title="@string/left_menu" android:dependency="@string/dynamic"/>
+        <Preference android:title="@string/right_menu" android:dependency="@string/dynamic"/>
+        <Preference android:title="@string/left_right_menu" android:dependency="@string/dynamic"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/effect" android:key="@string/effect" >
+        <Preference android:title="@string/lock_interface" android:dependency="@string/effect"/>
+        <Preference android:title="@string/lock_interface_dynamic" android:dependency="@string/effect"/>
+    </PreferenceCategory>
 </PreferenceScreen>

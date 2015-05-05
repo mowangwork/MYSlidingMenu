@@ -1,37 +1,24 @@
-package com.mywork.myslidingmenu;
+package com.mywork.trydraghelper;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ScrollView;
-
-import com.mywork.myslidingmenulibrary.MYSlidingMenu;
 
 
-public class LeftMenuActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_left_menu);
-
-        MYSlidingMenu menu = (MYSlidingMenu) findViewById(R.id.menu);
-        menu.setmMode(MYSlidingMenu.Mode.LEFT);
-        menu.setMenuView(R.layout.fragment_menu);
-        FragmentTransaction t = this.getSupportFragmentManager().beginTransaction();
-        MenuFragment mFrag = new MenuFragment();
-        t.replace(R.id.fragment_menu, mFrag);
-        t.commit();
+        setContentView(R.layout.activity_main);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_left_menu, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 

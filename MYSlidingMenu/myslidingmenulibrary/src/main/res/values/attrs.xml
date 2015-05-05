@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MYSlidingMenu">
+        <attr name="leftmenu" format="reference"></attr>
+        <attr name="rightmenu" format="reference"></attr>
+        <attr name="leftwidth" format="dimension"></attr>
+        <attr name="rightwidth" format="dimension"></attr>
+        <attr name="lockinterface" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>

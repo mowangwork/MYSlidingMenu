@@ -5,5 +5,18 @@
     <string name="action_settings">Settings</string>
     <string name="general">General</string>
     <string name="left_menu">Left_Menu</string>
+    <string name="right_menu">Right_Menu</string>
+    <string name="left_right_menu">Left_Right_Menu</string>
+    <string name="dynamic">Dynamic</string>
+    <string name="effect">Effect</string>
+    <string name="lock_interface">LockInterface</string>
+    <string name="lock_interface_dynamic">LockInterfaceDynamic</string>
     <string name="title_activity_left_menu">LeftMenuActivity</string>
+    <string name="title_activity_right_menu">RightMenuActivity</string>
+    <string name="title_activity_left_and_right">LeftAndRightActivity</string>
+    <string name="title_activity_left_dynamic_menu">LeftDynamicMenuActivity</string>
+    <string name="title_activity_right_dynamic_menu">RightDynamicMenuActivity</string>
+    <string name="title_activity_left_and_right_dynamic">LeftAndRightDynamicActivity</string>
+    <string name="title_activity_lock_interface">LockInterfaceActivity</string>
+    <string name="title_activity_lock_interface_dynamic">LockInterfaceDynamicActivity</string>
 </resources>
